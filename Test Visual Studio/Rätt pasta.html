@@ -1,0 +1,52 @@
+<!--vi vill använda den senaste versionen av HTML5-->
+<!DOCTYPE html>
+<!--vi säger till browsern att sajten är svensk dessutom är det bättre för SEO-->
+<html lang="sv">
+    <head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css">
+      <title>Restaurang Pasta</title>
+
+    </head>
+    <body>
+      <header>
+        <div class="container">
+            <img src="matlogo.jpg" alt="logo på pasta">
+          <h1 class="logo"></h1>
+    
+          <nav>
+            <ul>
+              <li><a href="#">Hem</a></li>
+              <li><a href="#">Om oss</a></li>
+              <li><a href="#">Pris</a></li>
+              <li><a href="kontakt.html">Kontakta</a></li>
+              <li><a href="#">Logga in</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+        <h1>Bästa pastan i VÄRLDEN!</h1>
+        <button>Mer pasta</button>
+        <img src="https://img.koket.se/standard-mega/pasta-med-kramig-svampsas.jpg.webp" alt="Jättegod bild på pasta" />
+        <p>Pasta är väldigt gott och vår restaurang hittar du den bästa pastan i världen!</p>
+        <!--skapa än länk till ordet "här" nedan, som tar en till inloggning också-->
+        <p>Älsar du också pasta? Skapa ett konto här!</p>
+        <form id="app-login" action="process.php">
+            <fieldset>
+            <legend>Login Details</legend>
+            <div>
+              <label for="user-name">Username:</label>
+              <input name="user-name" type="email" placeholder="Your username is your email address" required autofocus>
+            
+            </div>
+            <div>
+              <label for="password">Password:</label>
+              <input name="password" type="password" placeholder="6 digits, a combination of numbers and letters" required>
+            </div>
+            <div>
+              <input name="login" type="submit" value="Login">
+            </div>
+            </fieldset>
+            </form>
+          
+    </body>
